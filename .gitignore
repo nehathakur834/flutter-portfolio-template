@@ -1,0 +1,140 @@
+gradle-wrapper.jar
+/.gradle
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
+GeneratedPluginRegistrant.java
+.cxx/
+
+# Remember to never publicly share your keystore.
+# See https://flutter.dev/to/reference-keystore
+key.properties
+**/*.keystore
+**/*.jks
+
+
+# ==========================
+# Flutter / Dart
+# ==========================
+
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+
+# Generated files
+.generated/
+.generated_plugin_registrant.dart
+
+# Flutter build outputs
+build/
+.flutter-ephemeral/
+
+# ==========================
+# Android
+# ==========================
+
+android/.gradle/
+android/app/build/
+android/local.properties
+android/captures/
+android/.cxx/
+
+# Keep Gradle Wrapper files
+# DO NOT IGNORE:
+# android/gradlew
+# android/gradlew.bat
+# android/gradle/wrapper/gradle-wrapper.jar
+
+# Signing keys
+android/key.properties
+*.jks
+*.keystore
+
+# ==========================
+# iOS
+# ==========================
+
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+
+# Uncomment if you don't want to commit CocoaPods
+# ios/Podfile.lock
+
+# ==========================
+# macOS
+# ==========================
+
+macos/Pods/
+macos/Flutter/ephemeral/
+
+# ==========================
+# Linux
+# ==========================
+
+linux/flutter/ephemeral/
+
+# ==========================
+# Windows
+# ==========================
+
+windows/flutter/ephemeral/
+
+# ==========================
+# Web
+# ==========================
+
+# Uncomment if generated
+# web/build/
+
+# ==========================
+# IDEs
+# ==========================
+
+.idea/
+.vscode/
+*.iml
+
+# ==========================
+# OS Files
+# ==========================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# Logs
+# ==========================
+
+*.log
+
+# ==========================
+# Archives
+# ==========================
+
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# ==========================
+# APK / AAB
+# ==========================
+
+*.apk
+*.aab
+
+# ==========================
+# Misc
+# ==========================
+
+*.swp
+*.tmp
