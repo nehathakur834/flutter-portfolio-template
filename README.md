@@ -118,3 +118,13 @@ This project is open-source and available under the MIT License.
 🙌 Acknowledgements
 
 Inspired by modern developer portfolios and UI trends.
+
+---
+
+## 👩‍💻 Author
+
+**Neha Thakur**
+
+- 🐙 GitHub: [@nehathakur834](https://github.com/nehathakur834)
+- 💼 LinkedIn: [Neha Thakur](https://www.linkedin.com/in/neha-thakur)
+- 🌐 Portfolio: [nehathakurportfolio.netlify.app](https://nehathakurportfolio.netlify.app)
