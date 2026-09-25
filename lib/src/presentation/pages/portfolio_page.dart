@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../core/app_theme.dart';
 import '../../core/responsive.dart';
 import '../../data/portfolio_content.dart';
 import '../widgets/action_button.dart';
@@ -195,7 +194,8 @@ class _AboutSection extends StatelessWidget {
           children: [
             const SectionHeader(
               eyebrow: 'About',
-              title: 'Engineering product experiences that feel sharp, fast, and dependable.',
+              title:
+                  'Engineering product experiences that feel sharp, fast, and dependable.',
             ),
             const SizedBox(height: 28),
             Flex(
@@ -217,9 +217,15 @@ class _AboutSection extends StatelessWidget {
                     runSpacing: 12,
                     children: const [
                       _HighlightCard(value: '9+', label: 'Years building apps'),
-                      _HighlightCard(value: '35+', label: 'Production releases'),
+                      _HighlightCard(
+                        value: '35+',
+                        label: 'Production releases',
+                      ),
                       _HighlightCard(value: 'AI', label: 'Product workflows'),
-                      _HighlightCard(value: 'Clean', label: 'Architecture first'),
+                      _HighlightCard(
+                        value: 'Clean',
+                        label: 'Architecture first',
+                      ),
                     ],
                   ),
                 ),
@@ -283,7 +289,8 @@ class _SkillsSection extends StatelessWidget {
           children: [
             const SectionHeader(
               eyebrow: 'Skills',
-              title: 'Flutter depth, AI fluency, and architecture habits built for scale.',
+              title:
+                  'Flutter depth, AI fluency, and architecture habits built for scale.',
             ),
             const SizedBox(height: 28),
             Wrap(
@@ -325,7 +332,8 @@ class _ProjectsSection extends StatelessWidget {
                 const Expanded(
                   child: SectionHeader(
                     eyebrow: 'Projects',
-                    title: 'Premium app work with AI, marketplaces, and scalable delivery.',
+                    title:
+                        'Premium app work with AI, marketplaces, and scalable delivery.',
                   ),
                 ),
                 if (!isMobile)
@@ -348,7 +356,8 @@ class _ProjectsSection extends StatelessWidget {
                 mainAxisSpacing: 20,
                 childAspectRatio: isMobile ? .76 : .92,
               ),
-              itemBuilder: (context, index) => ProjectCard(project: projects[index]),
+              itemBuilder: (context, index) =>
+                  ProjectCard(project: projects[index]),
             ),
           ],
         ),
@@ -373,7 +382,8 @@ class _ExperienceSection extends StatelessWidget {
           children: [
             const SectionHeader(
               eyebrow: 'Experience',
-              title: 'A steady progression from mobile delivery to AI-powered product systems.',
+              title:
+                  'A steady progression from mobile delivery to AI-powered product systems.',
             ),
             const SizedBox(height: 28),
             Column(

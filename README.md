@@ -65,7 +65,28 @@ Project links
 GitHub URL
 LinkedIn
 Email
-Screenshots
+## 📸 Screenshots
+
+### 🏠 Home
+![Home Section](screenshots/home.png)
+
+### 👤 About
+![About Section](screenshots/about.png)
+
+### 🛠 Skills
+![Skills Section](screenshots/skills.png)
+
+### 💼 Projects
+![Projects Section](screenshots/projects.png)
+
+### 📅 Experience.  
+![Experience Section](screenshots/experience.png)
+
+### 📬 Contact
+![Contact Section](screenshots/contact.png)
+
+---
+
 📌 Sections Included
 Hero Section
 About Me

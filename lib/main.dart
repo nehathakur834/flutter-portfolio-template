@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter/material.dart';
-
 import 'src/core/app_theme.dart';
 import 'src/presentation/pages/portfolio_page.dart';
 
@@ -21,7 +19,9 @@ class _PortfolioAppState extends State<PortfolioApp> {
 
   void _toggleTheme() {
     setState(() {
-      _themeMode = _themeMode == ThemeMode.dark ? ThemeMode.light : ThemeMode.dark;
+      _themeMode = _themeMode == ThemeMode.dark
+          ? ThemeMode.light
+          : ThemeMode.dark;
     });
   }
 
@@ -33,10 +33,7 @@ class _PortfolioAppState extends State<PortfolioApp> {
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,
       themeMode: _themeMode,
-      home: PortfolioPage(
-        themeMode: _themeMode,
-        onToggleTheme: _toggleTheme,
-      ),
+      home: PortfolioPage(themeMode: _themeMode, onToggleTheme: _toggleTheme),
     );
   }
 }
